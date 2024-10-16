@@ -1,22 +1,19 @@
 import "./App.css";
-import Lander from "./components/HomePage/Lander";
-import Hero from "./components/HomePage/Hero";
-import DarkNavBar from "./components/DarkNavBar";
-import OurDna from "./components/HomePage/OurDna";
-import Banner1 from "./components/HomePage/Banner1";
-import ProductSection from "./components/HomePage/ProductSection";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Shop from "./pages/Shop";
+import Product from "./pages/Product";
+import Blog from "./pages/Blog";
 function App() {
   return (
-    <>
-      {/* <Lander /> */}
-      <div className="site-container bg-black w-full h-full">
-        <DarkNavBar />
-        <Hero />
-        <OurDna />
-        <Banner1 bannerUrl="#" />
-        <ProductSection />
-      </div>
-    </>
+    <Routes>
+      <Route path="/kiki/">
+        <Route index element={<Home />} />
+        <Route path="shop" element={<Shop />} />
+        <Route path="product" element={<Product />} />
+        <Route path="blog" element={<Blog />} />
+      </Route>
+    </Routes>
   );
 }
 export default App;

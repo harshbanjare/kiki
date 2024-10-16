@@ -2,7 +2,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 import productImage from "../assets/product1.png";
 
-const ProductCard: React.FC = () => {
+const ProductCard = ({ url }: { url: string }) => {
   const cardImgStyle: {
     backgroundImage: string;
     backgroundSize: string;
@@ -15,7 +15,7 @@ const ProductCard: React.FC = () => {
     backgroundPosition: "center",
   };
   return (
-    <div className="w-[350px] h-[450px] bg-[#F8F0DF] rounded-2xl p-2 flex justify-center items-center flex-col gap-2">
+    <div className="w-[350px] bg-[#F8F0DF] rounded-2xl p-2 flex justify-center items-center flex-col gap-2">
       <div
         className="w-full h-[400px] bg-blue-950 rounded-2xl flex justify-end items-stretch flex-col text-white p-4"
         style={cardImgStyle}
@@ -44,11 +44,11 @@ const ProductCard: React.FC = () => {
         <div className="font-bold text-white text-xl">
           Natural Finish Foundation
         </div>
-        <div className="flex text-[12px] justify-start items-center gap-2">
+        <div className="flex text-[12px] justify-start  gap-2">
           <div className="flex-initial text-white">
             Weightless, smudge-proof, buildable coverage
           </div>
-          <a href="#">
+          <a href={url}>
             <div className="flex-initial text-nowrap font-bold underline text-white">
               Read More
             </div>

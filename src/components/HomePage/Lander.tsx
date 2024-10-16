@@ -19,11 +19,14 @@ const Lander = () => {
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",
-    zIndex: -1,
+    zIndex: 100,
   };
   return (
-    <div className="bg-[#F9E7DA] h-screen w-screen fixed" style={bgStyle}>
-      <LightNavBar />
+    <div
+      className="bg-[#F9E7DA] h-screen w-screen fixed z-[1000]"
+      style={bgStyle}
+    >
+      <LightNavBar Lander={true} />
 
       <div className="flex flex-row w-full justify-between absolute bottom-0 m-8">
         <h1 className="flex text-3xl w-[22rem] font-bold items-end">

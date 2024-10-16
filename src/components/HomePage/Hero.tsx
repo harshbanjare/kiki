@@ -14,9 +14,9 @@ const Hero: React.FC = () => {
     backgroundPosition: "center",
   };
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="hidden md:flex items-center justify-center h-screen">
       <div
-        className="text-[100px] text-nowrap md:text-[200px] p-32 text-white italic font-bold"
+        className="text-[100px] text-nowrap md:text-[200px] p-32 text-white italic font-bold  "
         style={logoBGStyle}
       >
         Kiki Beauty
