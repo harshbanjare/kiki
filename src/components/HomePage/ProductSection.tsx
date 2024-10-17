@@ -22,8 +22,8 @@ const ProductSection = () => {
         GET IT BEFORE IT’S GONE
       </h1>
       <div className="flex justify-center items-center gap-16 md:flex-row flex-col">
-        <ProductCard url="/kiki/shop" />
-        <ProductCard url="/kiki/shop" />
+        <ProductCard url="/shop" />
+        <ProductCard url="/shop" />
       </div>
     </div>
   );

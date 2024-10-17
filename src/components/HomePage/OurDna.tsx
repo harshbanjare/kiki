@@ -76,7 +76,7 @@ const OurDna: React.FC = () => {
             Kiki isn't just makeup—it's a rebellion.{" "}
             <span
               style={{
-                fontSize: "2.5rem",
+                fontSize: "2rem",
               }}
             >
               A love letter to every dusky girl
