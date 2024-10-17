@@ -18,7 +18,7 @@ const BlogSection: React.FC = () => {
               dusky skin tones, providing flawless coverage and a radiant
               finish. From drugstore to high-end options, find your perfect
               shade. <br />
-              <a href="/kiki/blog">
+              <a href="/blog">
                 <span className="text-white text-xl underline">Read More</span>
               </a>{" "}
             </p>
@@ -35,7 +35,7 @@ const BlogSection: React.FC = () => {
               Must-Have Lipsticks for Dusky Skin: Bold, Beautiful, and
               Long-Lasting
             </h1>
-            <a href="/kiki/blog">
+            <a href="/blog">
               <span className="text-white text-xl underline">Read More</span>
             </a>{" "}
           </div>
@@ -51,7 +51,7 @@ const BlogSection: React.FC = () => {
               Eyeshadows for Dusky Skin: Bold, Neutral, and Everything In
               Between
             </h1>
-            <a href="/kiki/blog">
+            <a href="/blog">
               <span className="text-white text-xl underline">Read More</span>
             </a>{" "}
           </div>
@@ -71,7 +71,7 @@ const BlogSection: React.FC = () => {
               Say goodbye to ashiness and discover the top concealers that
               provide full coverage for dusky skin tones. Learn how to find the
               right shade to cover dark spots and under-eye circles. <br />
-              <a href="/kiki/blog">
+              <a href="/blog">
                 <span className="text-white text-xl underline">Read More</span>
               </a>
             </p>
