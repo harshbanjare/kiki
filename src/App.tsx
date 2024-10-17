@@ -7,12 +7,10 @@ import Blog from "./pages/Blog";
 function App() {
   return (
     <Routes>
-      <Route path="/kiki/">
-        <Route index element={<Home />} />
-        <Route path="shop" element={<Shop />} />
-        <Route path="product" element={<Product />} />
-        <Route path="blog" element={<Blog />} />
-      </Route>
+      <Route index element={<Home />} />
+      <Route path="shop" element={<Shop />} />
+      <Route path="product" element={<Product />} />
+      <Route path="blog" element={<Blog />} />
     </Routes>
   );
 }
